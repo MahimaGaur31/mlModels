@@ -1,2 +1,0 @@
-epoch,steps,training step,training data,training loss,training prec1,training prec5,training error1,training error5,validation step,validation data,validation loss,validation prec1,validation prec5,validation error1,validation error5
-1,390,0.053452791923131696,0.0018242958264473156,1.724394188171778,34.62540064102564,86.4483173076923,65.37459935897436,13.551682692307693,0.01625060129769241,0.002941074250619623,1.537020308303833,42.67,92.2,57.33,7.799999999999997

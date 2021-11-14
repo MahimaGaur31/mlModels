@@ -12,4 +12,4 @@ module load anaconda3/2020.07
 eval "$(conda shell.bash hook)"
 conda activate idl
 cd /home/mg6827/convNet.pytorch/
-srun -l python main.py --dataset cifar10 --model resnet --model-config "{'depth': 32}" -b 128 --epochs 350 --save resnet18_rtx8000:1
+srun -l python main.py --dataset cifar10 --model resnet --model-config "{'depth': 32}" -b 128 --epochs 350 --save resnet32_v
