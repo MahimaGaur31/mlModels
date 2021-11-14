@@ -1,0 +1,18 @@
+0: main.py:141: SyntaxWarning: "is" with a literal. Did you mean "=="?
+0:   if args.save is '':
+0: main.py:164: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+0:   resume=args.resume is not '',
+0: main.py:186: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+0:   if args.model_config is not '':
+0: Traceback (most recent call last):
+0:   File "main.py", line 364, in <module>
+0:     main()
+0:   File "main.py", line 130, in main
+0:     main_worker(args)
+0:   File "main.py", line 168, in main_worker
+0:     results = ResultsLog(results_path,
+0:   File "/home/mg6827/convNet.pytorch/utils/log.py", line 138, in __init__
+0:     os.remove(self.data_path)
+0: FileNotFoundError: [Errno 2] No such file or directory: './results/resnet18_rtx8000:1/results.csv'
+srun: error: gr008: task 0: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=11987681.0
